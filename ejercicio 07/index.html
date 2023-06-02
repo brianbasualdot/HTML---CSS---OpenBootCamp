@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body class="bg-dark">
+    <header class="header">
+        Already a member? <a href="#">Sign In</a>
+    </header>
+    <div class="container">
+        <div class="social">
+            <h3 class="title">Sign Up</h3>
+            <div class="buttons">
+                <a href="#" class="btn btn-google">
+                    <picture>
+                        <img src="./images/google.png" alt="Google" class="icon icon-google" />
+                    </picture>
+                    <span>Acceder con Google</span>
+                </a>
+                <a href="#" class="btn btn-twitter">
+                    <picture>
+                        <img src="./svg/twitter.svg" alt="Twitter" class="icon icon-twitter" />
+                    </picture>
+                    <span>Acceder con Twitter</span>
+                </a>
+            </div>
+        </div>
+        <div class="divisor">
+            <hr />
+            <span>Or</span>
+            <hr />
+        </div>
+        <form class="form">
+            <div class="form-group">
+                <div class="form-field">
+                    <label class="bg-dark" for="name">Name</label>
+                    <input class="bg-dark" type="text" id="name" />
+                </div>
+                <div class="form-field">
+                    <label class="bg-dark" for="username">Username</label>
+                    <input class="bg-dark" type="text" id="username" />
+                </div>
+            </div>
+            <div class="form-field">
+                <label class="bg-dark" for="email">Email</label>
+                <input class="bg-dark" type="email" id="email" />
+            </div>
+            <div class="form-field">
+                <label class="bg-dark" for="password">Password</label>
+                <input class="bg-dark" type="password" id="password" placeholder="6+ characters" />
+            </div>
+            <div class="form-field terms-conditions">
+                <label class="bg-dark" for="terms">Creating an account means you're okay with our <a href="#">Terms of Service, Privacy Policy,</a> and our default <a href="#">Notification Settings.</a></p></label>
+                <input class="bg-dark" type="checkbox" id="terms" />
+            </div>
+            <div class="form-field form-button">
+                <button type="button" class="btn btn-submit">Create Account</button>
+            </div>
+        </form>
+        <footer class="footer">
+            <p>This site is protected by reCAPTCHA and the Google </p>
+            <p><a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
+        </footer>
+    </div>
+</body>
+</html>
